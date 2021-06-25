@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+@media only screen and (max-width: 760px){
+
+.modal-dialog {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.table{
+    width: 80%;
+    margin-left: 10%;
+}
+h3{
+    margin-left: 10%;
+}
+
+}
+
+@media only screen and (max-width: 760px){
+    h1 {
+        font-size: x-large;
+    }
+    h3 {
+        font-size: large;
+    }
+}
